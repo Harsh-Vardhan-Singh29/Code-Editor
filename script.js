@@ -17,4 +17,21 @@ function updateOutput() {
 html.addEventListener("input", updateOutput);
 css.addEventListener("input", updateOutput);
 js.addEventListener("input", updateOutput);
+
+
+
+html.value = localStorage.getItem("html") || "";
+css.value = localStorage.getItem("css") || "";
+js.value = localStorage.getItem("js") || "";
+
+
+function saveCode() {
+  localStorage.setItem("html", html.value);
+  localStorage.setItem("css", css.value);
+  localStorage.setItem("js", js.value);
+}
+
+html.addEventListener("input", saveCode);
+css.addEventListener("input", saveCode);
+js.addEventListener("input", saveCode);
 updateOutput();
