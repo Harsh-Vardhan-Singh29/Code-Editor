@@ -3,6 +3,11 @@
 ## Overview
 A browser-based code editor inspired by VS Code that allows users to write and preview HTML, CSS, and JavaScript in real time.
 
+## Key Highlights
+- Built from scratch using vanilla JavaScript  
+- Implements real-time rendering using iframe  
+- Uses localStorage for persistent code saving  
+
 ## Features
 - Live preview of code  
 - Separate editors for HTML, CSS, and JavaScript  
