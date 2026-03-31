@@ -34,3 +34,6 @@ A browser-based code editor inspired by VS Code that allows users to write and p
   
 ## Demo
 ![Demo](screenshot.png)
+
+## Live Demo
+https://harsh-vardhan-singh29.github.io/Code-Editor/
