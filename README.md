@@ -25,4 +25,7 @@ A browser-based code editor inspired by VS Code that allows users to write and p
 ## Future Improvements
 - Add dark/light theme toggle  
 - Add file download option  
-- Integrate Monaco Editor  
+- Integrate Monaco Editor
+  
+## Demo
+![Demo](screenshot.png)
